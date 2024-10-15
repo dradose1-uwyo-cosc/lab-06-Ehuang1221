@@ -1,6 +1,6 @@
-# [Name]
-## [Assignment #]
-## [Submission date: MM/DD/YY]
+# [Edmon Huang]
+## [Lab06]
+## [Submission date: 10/15/24]
 ## Worked with/sources 
 * example
 * example

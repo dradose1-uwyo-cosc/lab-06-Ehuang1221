@@ -66,6 +66,13 @@ print(len(random_string)) # Print out the size for reference
 
 # Above is a string with 2500 characters.
 # Create a program that goes through and counts the occurrence of each character, excluding \n using a  dictionary
+
+character_count = {} # Initializes a dictionary for occurrences 
+for character in random_string:
+    if character in character_count:
+        character_count[character] += 1 # counts character if in dictionary and increments the value
+    else:
+        character_count[character] = 1 # adds new character to dictionary if its not already there
 # Output each letter and its corresponding occurrence in alphabetical order
 # Output which letter occurred the most 
 # Output which letter occurred the least 
