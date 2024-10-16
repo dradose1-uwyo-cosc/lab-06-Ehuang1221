@@ -2,8 +2,8 @@
 # UWYO COSC 1010
 # Submission Date
 # Lab 06
-# Lab Section: 
-# Sources, people worked with, help given to: 
+# Lab Section: 11
+# Sources, people worked with, help given to: stackoverflow, Google, ChatGPT
 # your
 # comments
 # here
@@ -74,7 +74,7 @@ for character in random_string:
     else:
         character_count[character] = 1 # adds new character to dictionary if its not already there
 # Output each letter and its corresponding occurrence in alphabetical order
-sorted_character = dict(sorted(character_count.items())) # sorts character count by characters in alphabetical order
+sorted_character = dict(sorted(character_count.items())) # sorts character count by characters in alphabetical order new dictionary
 for character, count in sorted_character.items(): # returns the character and counts
     print(f"{character}: {count}")
 # Output which letter occurred the most 
